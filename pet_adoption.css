@@ -1,0 +1,47 @@
+h1 span {
+    color: orangered;
+}
+
+h2 {
+    color: orangered;
+}
+
+#pets {
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+h3{
+    margin: 10px;
+    text-align: right;
+}
+
+
+.card {
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 2%;
+    padding: 10px; 
+    margin: 10px;
+}
+
+img{
+  
+   width: 100%;
+   border: 2px solid black;
+   border-radius: 20px;
+} 
+
+p{
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+@media (max-width:375px){
+    #pets{
+        flex-wrap: wrap;
+    }
+}
+

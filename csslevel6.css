@@ -1,0 +1,34 @@
+#container {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    
+    display:grid;
+    /* grid-row: 12; */
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 10px;
+}
+
+#container div{
+    background-color: pink;
+    font-size: 1.5 rem;
+}
+
+#header {
+    /* grid-row-start: 1; */
+    grid-column: 1/span   12;
+}
+
+#sidebar {
+    grid-row: 1/ span 10;
+    grid-column: 1/ span 3;
+}
+
+#navigation {
+    grid-column: 1 / 6;
+}
+
+#ads {
+    grid-row:1 /span 10 ;
+}

@@ -1,0 +1,49 @@
+#outer {
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    border-radius: 5%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    background-color: grey;
+    border-radius: 5%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#nav {
+    height: 50px;
+    width: 900px;
+    background-color: rgba(175, 100, 177, 0.905);
+    border:2px solid black; 
+    border-radius: 10px;
+    
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.logos {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    line-height: 50px;
+    
+    
+}
+
+    
+    
+
+
